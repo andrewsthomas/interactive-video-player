@@ -1,0 +1,14 @@
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.textWrapper {
+  width: 90%;
+  margin: 2em auto;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5em;
+}
