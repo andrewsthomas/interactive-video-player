@@ -12,3 +12,7 @@ p {
   font-family: 'Lato', sans-serif;
   line-height: 1.5em;
 }
+
+.highlight {
+  font-weight: bold;
+  color: orange; }
