@@ -1,6 +1,14 @@
-video {
-  width: 100%    !important;
-  height: auto   !important;
+* {
+  box-sizing: border-box; }
+
+.videoWrapper {
+  margin: 0 auto;
+}
+
+.mejs__player {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
 }
 
 .textWrapper {
@@ -15,4 +23,5 @@ p {
 
 .highlight {
   font-weight: bold;
-  color: orange; }
+  color: orange;
+}
