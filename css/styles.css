@@ -1,14 +1,11 @@
 * {
-  box-sizing: border-box; }
-
-.videoWrapper {
-  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-.mejs__player {
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
+video {
+  width: 100%    !important;
+  height: auto   !important;
+  margin: 0 auto !important;
 }
 
 .textWrapper {
