@@ -3,9 +3,8 @@
 }
 
 video {
-  width: 100%    !important;
-  height: auto   !important;
-  margin: 0 auto !important;
+  width: 100%   !important;
+  height: 100%  !important;
 }
 
 .textWrapper {
