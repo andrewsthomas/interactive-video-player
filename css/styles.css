@@ -2,13 +2,18 @@
   box-sizing: border-box;
 }
 
-video {
-  width: 100%   !important;
-  height: 100%  !important;
+.videoWrapper {
+    max-width: 768px;
+    margin: auto;
+}
+
+.mejs__inner .mejs__controls {
+  background-color: orange;
 }
 
 .textWrapper {
   width: 90%;
+  max-width: 768px;
   margin: 2em auto;
 }
 
@@ -20,4 +25,12 @@ p {
 .highlight {
   font-weight: bold;
   color: orange;
+}
+
+/*** Media Query for Tablet or Desktop ***/
+
+@media (min-width: 768px) {
+  .videoWrapper {
+    margin: 2em auto 3em;
+  }
 }
