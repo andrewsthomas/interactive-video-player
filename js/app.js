@@ -19,13 +19,17 @@ vid.addEventListener('timeupdate', () => {
 
 //Script for playing video after clicking a place in the transcript text
 
-// spans.addEventListener('click', => {
-//   for (let i = 0; i < spans.length; i += 1) {
-//     let span = spans[i];
-//     let startTime = spans[i].getAttribute('data-start');
-//     if (span) {
-//       vid.currentTime = startTime;
-//       vid.play();
-//     }
-//   }
-// });
+function clickText(element) {
+   element.addEventListener("click", () => {
+     let startTime = element.getAttribute('data-start');
+     if (element) {
+       vid.currentTime = startTime;
+       vid.play();
+     }
+  });
+}
+
+for (let i = 0; i < spans.length; i += 1) {
+  let span = spans[i];
+  clickText(span);
+}
