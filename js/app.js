@@ -20,7 +20,7 @@ vid.addEventListener('timeupdate', function() {
 //Script for playing video after clicking a place in the transcript text
 
 function clickText(element) {
-   element.addEventListener("click", function() {
+   element.addEventListener('click', function() {
      let startTime = element.getAttribute('data-start');
      if (element) {
        vid.currentTime = startTime;
